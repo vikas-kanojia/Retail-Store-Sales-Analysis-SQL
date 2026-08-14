@@ -22,8 +22,7 @@ This project uses SQL queries to answer business questions and generate KPIs suc
 ## 📂 Repository Contents
 - `RetailStoreDB.sql` → Database & table creation + sample data (20 records).
 - `Queries.sql` → SQL queries for business questions (Basic, Intermediate, Advanced).
-- `Report.md` → Insights and KPI results (optional).
-- `screenshots/` → Query outputs (optional).
+- `Report.md` → Insights and KPI results.
 
 ---
 
@@ -66,7 +65,7 @@ This project uses SQL queries to answer business questions and generate KPIs suc
 ## 🚀 How to Use
 1. Import `RetailStoreDB.sql` into MySQL.
 2. Run queries from `Queries.sql`.
-3. Review insights in `Report.md` or screenshots.
+3. Review insights in `Report.md'.
 4. Use results to analyze KPIs and business trends.
 
 ---
