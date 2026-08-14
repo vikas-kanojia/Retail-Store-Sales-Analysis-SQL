@@ -6,45 +6,72 @@ The goal is to answer business questions and highlight key performance indicator
 
 ---
 
-## 🔎 Key Insights
+## 🔎 Key Insights with Tables
 
-### 🏙️ City-wise Sales
-- **Delhi** generated the highest sales revenue.
-- Jaipur and Mumbai also contributed significantly.
-
-### 📦 Category-wise Revenue
-- **Electronics** is the top-performing category with maximum revenue.
-- Furniture is the second-highest contributor.
-- Home Appliances contributed a smaller share.
-
-### 👨‍💼 Salesperson Performance
-- **Neha** and **Amit** achieved the highest revenues.
-- Rahul and Rohit also performed well but slightly lower.
-
-### 💳 Payment Mode Analysis
-- **Credit Card** and **UPI** are the most popular payment modes.
-- Cash and Debit Card are less frequently used.
-
-### 👥 Customer Trends
-- Customers aged **25–35 years** form the largest purchasing group.
-- Frequent buyers include **Rahul, Neha, and Rohit’s customers**.
-
-### 📅 Monthly Sales Trend
-- January 2026 shows consistent sales across multiple days.
-- Peak transactions occurred around mid-month.
-
-### 🏆 Top Products
-- **Laptop** and **Television** generated the highest revenues.
-- Furniture items like **Sofa** and **Bed** also contributed strongly.
+### 🏙️ City-wise Total Sales
+| city       | CitySales   |
+| :--------- | ----------: |
+| Delhi      | 239000.00   |
+| Noida      | 65500.00    |
+| Mumbai     | 109000.00   |
+| Pune       | 72000.00    |
+| Jaipur     | 115500.00   |
+| Lucknow    | 40000.00    |
+| Chandigarh | 8500.00     |
 
 ---
 
-## 📈 Business KPI Report
-- **Total Orders:** 20  
-- **Total Revenue:** ₹7,48,500  
-- **Average Order Value:** ~₹37,425  
-- **Highest Sale:** ₹57,000 (Mohit – Laptop)  
-- **Lowest Sale:** ₹8,500 (Ankit – Chair, Nisha – Mixer Grinder)
+### 📦 Category-wise Revenue
+| category       | CategoryRevenue |
+| :------------- | --------------: |
+| Electronics    | 461500.00       |
+| Furniture      | 179500.00       |
+| Home Appliance | 8500.00         |
+
+---
+
+### 👨‍💼 Salesperson-wise Revenue
+| salesperson | SalespersonRevenue |
+| :---------- | -----------------: |
+| Amit        | 186500.00          |
+| Rohit       | 116500.00          |
+| Neha        | 188500.00          |
+| Rahul       | 158000.00          |
+
+---
+
+### 💳 Orders by Payment Mode
+| payment_mode | OrdersCount |
+| :----------- | ----------: |
+| Credit Card  | 5           |
+| UPI          | 6           |
+| Cash         | 6           |
+| Debit Card   | 3           |
+
+---
+
+### 🏆 Top 5 Highest Sales Transactions
+| sale_id | order_date | customer_name | gender | age | city   | state       | product_name   | category    | quantity | unit_price |
+| :------ | :--------- | :------------ | :----- | --: | :----- | :---------- | :------------- | :---------- | -------: | ---------: |
+| 19      | 2026-01-29 | Mohit         | Male   | 37  | Jaipur | Rajasthan   | Laptop         | Electronics | 1        | 62000.00   |
+| 12      | 2026-01-19 | Ritika        | Female | 25  | Noida  | UP          | Laptop         | Electronics | 1        | 60000.00   |
+| 1       | 2026-01-01 | Rahul         | Male   | 24  | Delhi  | Delhi       | Laptop         | Electronics | 1        | 55000.00   |
+| 13      | 2026-01-21 | Deepak        | Male   | 38  | Mumbai | Maharashtra | Air Conditioner| Electronics | 1        | 52000.00   |
+| 15      | 2026-01-23 | Manoj         | Male   | 42  | Delhi  | Delhi       | Mobile         | Electronics | 3        | 16000.00   |
+
+---
+
+### 💳 Most Popular Payment Mode
+| payment_mode | ModeCount |
+| :----------- | --------: |
+| UPI          | 6         |
+
+---
+
+### 📈 Business KPI Report
+| TotalOrders | TotalRevenue | AverageOrderValue | HighestSale | LowestSale |
+| ----------- | ------------ | ----------------- | ----------- | ---------- |
+| 20          | 649500.00    | 32475.00          | 57000.00    | 8500.00    |
 
 ---
 
