@@ -75,5 +75,11 @@ This project uses SQL queries to answer business questions and generate KPIs suc
 - Business data analysis
 - KPI reporting
 - Database design and management
-- Real-world application of SQL in retail analytics
+- Real-world application of SQL in retail analytics.
+
+- ## 📂 Project Files
+- [RetailStoreDB.sql](RetailStoreDB.sql) → Database setup & sample data
+- [Queries.sql](Queries.sql) → Business queries (Basic, Intermediate, Advanced)
+- [Report.md](Report.md) → Insights & KPI analysis.
+
 
